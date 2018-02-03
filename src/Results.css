@@ -1,0 +1,19 @@
+.tactic-list {
+  width: 100vw;
+}
+
+.tactic-container {
+  width: 100vw;
+}
+
+.tactic {
+  display: flex;
+  flex-direction: row;
+}
+
+.half {
+  width: 50vw;
+  border: 1px dotted black;
+  min-height: 200px;
+  padding-top: 5px;
+}

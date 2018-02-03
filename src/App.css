@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+  margin-top: 0;
+}
+
+
+.GoogleImg {
+  display: flex;
+  margin: 31vh auto 1vh;
+  width: auto;
+  max-height: 15vh;
+}
+
+.GoogleImgWithResults {
+  position: absolute;
+  max-height: 7vh;
+  left: 15px;
+  margin-top: 3vh;
+}
