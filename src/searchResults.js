@@ -12,6 +12,21 @@ export default [
       'react controlled text input',
       'mdn string split',
     ],
+    component: 'ReduceSumInput',
+  },
+  
+  {
+    h1: 'use array.reduce to sum some numbers',
+    blurb: [
+      'array in state',
+      '[1, 2, 3]',
+      '--> SUM',
+      '6',
+    ],
+    topics: [
+      'mdn array reduce',
+      'react component state',
+    ],
     component: 'ReduceSum',
   },
 
