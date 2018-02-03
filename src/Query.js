@@ -34,7 +34,9 @@ class Query extends Component {
     : null
   )
 
-
+  componentDidMount(){
+    this.props.onResults( searchResults );
+  }
   
   render() {
     const { autos } = this.state;
