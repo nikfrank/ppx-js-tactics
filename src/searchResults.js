@@ -14,4 +14,18 @@ export default [
     ],
     component: 'ReduceSum',
   },
+
+  {
+    h1: 'limit the length of the displayed text',
+    blurb: [
+      'only have space for 16 chars',
+      'should render',
+      'only have spa...',
+    ],
+    topics: [
+      'mdn string slice',
+      'jsx render from state',
+    ],
+    component: 'Ellipsis',
+  },
 ];
