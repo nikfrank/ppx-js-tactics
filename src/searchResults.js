@@ -43,4 +43,50 @@ export default [
     ],
     component: 'Ellipsis',
   },
+
+  {
+    h1: 'chunk an input list to a desired size',
+    blurb: [
+      'I have a list like [1, 2, 3, 4, 5]',
+      'that into groups of three',
+      'like [[1, 2, 3], [4, 5]]',
+      'or maybe groups of two',
+      'like [[1, 2], [3, 4], [5]]',
+    ],
+    topics: [
+      'mdn array slice',
+      'html input number',
+      'react setstate',
+      'pure function',
+    ],
+    component: 'ChunkInput',
+  },
+
+  {
+    h1:'Make up a condition and filter your list',
+    blurb: [
+      'we have users.json like',
+      '[{ name: \'fry\', isGreat: false, species: \'human\' }',
+      ' { name: \'bender\', isGreat: true, species: \'robot\' }]',
+      'we may want to filter by species (find all humans)',
+      'or by greatness (you must be this great to enter)',
+    ],
+    topics: [
+      'https://reactjs.org/docs/forms.html',
+      'react setstate',
+      'mdn array filter',
+    ],
+    component: 'LiveFilter',
+  },  
+];
+
+const template = [
+  {
+    h1:'',
+    blurb: [
+    ],
+    topics: [
+    ],
+    component: '',
+  },
 ];
