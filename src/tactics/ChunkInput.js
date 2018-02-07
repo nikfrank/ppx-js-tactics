@@ -19,7 +19,7 @@ export default class ChunkInput extends Component {
 
           <input type='number' style={inputStyle} />
         </div>
-        <span> chunked array: { this.state.output } </span>
+        <span> chunked array: { this.state.output.join(' ') } </span>
       </div>
     );
   }

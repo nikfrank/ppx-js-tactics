@@ -77,12 +77,26 @@ export default [
       'mdn array filter',
     ],
     component: 'LiveFilter',
-  },  
+  },
+
+  {
+    h1: 'Drop items from the end of your list',
+    blurb: [
+      'we want to take away some items from our list',
+      'but we want to decide at runtime (the user) how many',
+    ],
+    topics: [
+      'https://reactjs.org/docs/forms.html',
+      'react setstate',
+      'react lists',
+    ],
+    component: 'Drop',
+  },
 ];
 
 const template = [
   {
-    h1:'',
+    h1: '',
     blurb: [
     ],
     topics: [
