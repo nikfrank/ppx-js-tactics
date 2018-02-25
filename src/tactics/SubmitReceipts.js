@@ -29,7 +29,7 @@ export default class SubmitReceipts extends Component {
 
         <ul>
           {
-            this.props.receipts.map( ({ item, amount }, ri)=> (
+            this.state.receipts.map( ({ item, amount }, ri)=> (
               <li key={ri}>
                 {item} - {amount}
               </li>
