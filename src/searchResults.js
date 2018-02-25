@@ -92,6 +92,21 @@ export default [
     ],
     component: 'Drop',
   },
+
+  {
+    h1: 'Make a list of receipts, send them to the API',
+    blurb: [
+      'we want to track our expenses so we can get tax writeoffs',
+      'we\'ll need to add {} formatted objects to a list',
+      'then send that list as a POST body',
+    ],
+    topics: [
+      'react forms',
+      'react setState',
+      'mdn fetch',
+    ],
+    component: 'SubmitReceipts',
+  },
 ];
 
 const template = [
