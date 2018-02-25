@@ -4,6 +4,8 @@ import Ellipsis from './Ellipsis';
 import ChunkInput from './ChunkInput';
 import LiveFilter from './LiveFilter';
 import Drop from './Drop';
+import SubmitReceipts from './SubmitReceipts';
+import TwoCounters from './TwoCounters';
 
 export default {
   ReduceSum,
@@ -12,4 +14,6 @@ export default {
   ChunkInput,
   LiveFilter,
   Drop,
+  SubmitReceipts,
+  TwoCounters,
 };

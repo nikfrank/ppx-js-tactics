@@ -107,6 +107,21 @@ export default [
     ],
     component: 'SubmitReceipts',
   },
+
+  {
+    h1: 'we have two counters, now we want doublers',
+    blurb: [
+      'using the onChange handler in the Counter Component',
+      'let\'s add another button that doubles our count',
+    ],
+    topics: [
+      'react props',
+      'react lifecycle',
+      'es6 fat arrow functions',
+    ],
+    component: 'TwoCounters',
+  },
+
 ];
 
 const template = [
